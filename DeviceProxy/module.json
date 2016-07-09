@@ -1,0 +1,14 @@
+{
+	"id": "{80555372-5AD2-47BC-8DED-B06A1065A039}",
+	"name": "DeviceProxy",
+	"type": 3,
+	"vendor": "",
+	"aliases": 
+	[
+		"DeviceProxy"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "DPR"
+}
