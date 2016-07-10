@@ -1,6 +1,6 @@
 <?
 
-	class Umrechnen extends IPSModule
+	class DeviceProxy extends IPSModule
 	{
 		
 		public function Create()
