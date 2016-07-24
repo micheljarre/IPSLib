@@ -8,7 +8,7 @@
 				{ "label": "[Wired] HMW-IO-12-Sw14-DR", "value": "HMW-IO-12-Sw14-DR" },
 				{ "label": "[BidCos-RF] HM-CC-RT-DN", "value": "HHM-CC-RT-DN" }
 			]
-		}
+		},
 		{ "type": "Select", "name": "Profile", "caption": "Funktionsprofil",
 			"options": [
 				{ "label": "Geräteüberwachung", "value": "Geräteüberwachung" },			
