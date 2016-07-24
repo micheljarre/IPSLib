@@ -1,11 +1,11 @@
 {
 	"id": "{F9284518-7399-46E4-9CE9-019087DBB2BA}",
-	"name": "DeviceProxy",
+	"name": "HomematicDeviceProxy",
 	"type": 3,
 	"vendor": "",
 	"aliases": 
 	[
-		"DeviceProxy"
+		"HomematicDeviceProxy"
 	],
 	"parentRequirements": [],
 	"childRequirements": [],
