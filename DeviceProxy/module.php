@@ -1,5 +1,5 @@
 <?
-	class DeviceProxy extends IPSModule
+	class HomematicDeviceProxy extends IPSModule
 	{
 		public function Create()
 		{
