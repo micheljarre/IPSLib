@@ -24,7 +24,7 @@
 		public function ReceiveData($JSONString)
 		{
 			IPS_LogMessage(__CLASS__, __FUNCTION__);
-			$data = 	
+			IPS_LogMessage(__CLASS__, print_r(json_decode($JSONString),1));
 
 		}		
 
