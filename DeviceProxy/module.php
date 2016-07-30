@@ -19,10 +19,11 @@
 			parent::ApplyChanges();
 			
 			$this->ConnectParent("{A151ECE9-D733-4FB9-AA15-7F7DD10C58AF}");
+			$instance = $this -> ReadPropertyInteger('MainHomematicInstance');
 			
-			if ($this -> ReadPropertyInteger($MainHomematicInstance) > 0)
+			if ($instance > 0)
 			{
-				$this -> $MainHomematicAddress = IPS_GetProperty($this -> $MainHomematicInstance, 'Address');
+				$this -> $MainHomematicAddress = IPS_GetProperty($instance, 'Address');
 				IPS_LogMessage(__CLASS__, $this -> $MainHomematicAddress);
 			}
 			
