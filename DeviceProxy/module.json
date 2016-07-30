@@ -7,8 +7,8 @@
 	[
 		"HomematicDeviceProxy"
 	],
-	"parentRequirements": [],
+	"parentRequirements": ["{A151ECE9-D733-4FB9-AA15-7F7DD10C58AF}"],
 	"childRequirements": [],
-	"implemented": [],
+	"implemented": ["{F9284518-7399-46E4-9CE9-019087DBB2BA}"],
 	"prefix": "DPR"
 }

@@ -1,7 +1,7 @@
 {
 	"elements":
 	[
-		{ "name": "Quellinstanz", "type": "SelectInstance", "caption": "Homematic Instanz" },
+		{ "name": "MainHomematicInstance", "type": "SelectInstance", "caption": "Homematic Instanz" },
 		{ "type": "Select", "name": "HMDeviceType", "caption": "Homematic Gerätetyp",
 			"options": [
 				{ "label": "[Wired] HMW-IO-12-Sw7-DR", "value": "HMW-IO-12-Sw7-DR" },
