@@ -1,7 +1,7 @@
 <?
 	class HomematicDeviceProxy extends IPSModule
 	{
-		private MainHomematicAddress;
+		private $MainHomematicAddress;
 		
 		public function Create()
 		{
