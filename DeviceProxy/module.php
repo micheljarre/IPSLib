@@ -22,7 +22,7 @@
 			
 			if ($this -> $MainHomematicInstance > 0)
 			{
-				$this -> $MainHomematicAddress = IPS_GetProperty(this -> $MainHomematicInstance, 'Address');
+				$this -> $MainHomematicAddress = IPS_GetProperty($this -> $MainHomematicInstance, 'Address');
 				IPS_LogMessage(__CLASS__, $this -> $MainHomematicAddress);
 			}
 			
