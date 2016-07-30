@@ -1,7 +1,7 @@
 <?
 	class HomematicDeviceProxy extends IPSModule
 	{
-		private $MainHomematicAddress;
+		protected $MainHomematicAddress;
 		
 		public function Create()
 		{
@@ -23,7 +23,7 @@
 			
 			if ($instance > 0)
 			{
-				$this -> $MainHomematicAddress = IPS_GetProperty($instance, 'Address');
+				$this -> $MainHomematicAddress = $instance -> ReadPropertyString('Address');
 				IPS_LogMessage(__CLASS__, $this -> $MainHomematicAddress);
 			}
 			
