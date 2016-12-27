@@ -2,11 +2,9 @@
 
 	class CheckMK extends IPSModule {
 		
-		
-		const $CMK_URL_ALLHOSTS =  "check_mk/view.py?view_name=allhosts";  
-		const $CMK_URL_JSON 	=  "output_format=JSON";  
-		
-		
+		const CMK_URL_ALLHOSTS =  "check_mk/view.py?view_name=allhosts";  
+		const CMK_URL_JSON 	=  "output_format=JSON";  
+				
 		public function Create() {
 			//Never delete this line!
 			parent::Create();
