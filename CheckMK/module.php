@@ -1,6 +1,6 @@
 <?
 
-	class Check_MK extends IPSModule {
+	class CheckMK extends IPSModule {
 		
 		public function Create() {
 			//Never delete this line!
