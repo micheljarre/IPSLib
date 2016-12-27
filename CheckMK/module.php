@@ -39,7 +39,7 @@
 		{
 			IPS_LogMessage(__CLASS__, "Aktualisiere Konfigurationsdaten zu Site " . $this->ReadPropertyString("Site"));
 			
-			$url = 'http://' . $this->ReadPropertyString("Username") . ':' . $this->ReadPropertyString("Password") . '@' . $this->ReadPropertyString("Server") . ':'  . $this->ReadPropertyString("Port") . '/' . $this->ReadPropertyString("Site") . '/' . CMK_URL_ALLHOSTS . '&' . CMK_URL_JSON;
+			$url = 'http://' . $this->ReadPropertyString("Username") . ':' . $this->ReadPropertyString("Password") . '@' . $this->ReadPropertyString("Server") . ':'  . $this->ReadPropertyString("Port") . '/' . $this->ReadPropertyString("Site") . '/' . self::CMK_URL_ALLHOSTS . '&' . self::CMK_URL_JSON;
 			
 			$config = json_decode(file_get_contents($url));
 			
