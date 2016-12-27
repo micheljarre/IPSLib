@@ -2,7 +2,7 @@
 	"elements":
 	[
 		{ "name": "Server", "type": "ValidationTextBox", "caption": "Check_MK Server" },		
-		{ "name": "Port", "type": "NumberSpinner", "caption": "Port" }
+		{ "name": "Port", "type": "NumberSpinner", "caption": "Port" },
 		{ "name": "Site", "type": "ValidationTextBox", "caption": "Check_MK Site" },		
 		{ "name": "Username", "type": "ValidationTextBox", "caption": "Nutzername" },
 		{ "name": "Password", "type": "PasswordTextBox", "caption": "Password" },
