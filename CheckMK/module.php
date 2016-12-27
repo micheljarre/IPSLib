@@ -31,6 +31,8 @@
 			parent::ApplyChanges();			
 			$this->SetTimerInterval("ConfigTimer", $this->ReadPropertyInteger("ConfigHours") * 1000 * 60);
 			$this->SetTimerInterval("ConfigTimer", $this->ReadPropertyInteger("DataMinutes") * 1000 * 60);
+			$this-> UpdateConfig();
+			
 		}
 		
 		public function UpdateConfig()
