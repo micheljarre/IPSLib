@@ -29,11 +29,11 @@
 		public function ApplyChanges() {
 			//Never delete this line!
 			parent::ApplyChanges();			
-			$this->SetTimerInterval("ConfigTimer", $this->ReadPropertyInteger("ConfigHours") * 60 * 60);
+			$this->SetTimerInterval("ConfigTimer", $this->ReadPropertyInteger("ConfigHours") * 1000 * 60);
 			$this->SetTimerInterval("ConfigTimer", $this->ReadPropertyInteger("DataMinutes") * 1000 * 60);
 		}
 		
-		private function UpdateConfig()
+		public function UpdateConfig()
 		{
 			IPS_LogMessage(__CLASS__, "Aktualisiere Konfigurationsdaten zu Site " . $this->ReadPropertyString("Site"));
 			
@@ -47,7 +47,7 @@
 		}
 		
 		
-		private function UpdateData()
+		public function UpdateData()
 		{
 			IPS_LogMessage(__CLASS__, "Aktualisiere Monitoringdaten zu Site " . $this->ReadPropertyString("Site"));
 			
