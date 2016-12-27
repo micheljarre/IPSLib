@@ -1,0 +1,14 @@
+{
+	"id": "{EC6CBA36-06B1-4A6A-8CBF-9DE7001F7EB4}",
+	"name": "CheckMK",
+	"type": 0,
+	"vendor": "",
+	"aliases": 
+	[
+		"CheckMK"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "CMK"
+}
