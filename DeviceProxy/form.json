@@ -1,5 +1,5 @@
 {
-	"elements" :
+	"elements":
 	[
 		{ "name": "MainHomematicInstance", "type": "SelectInstance", "caption": "Homematic Instanz" },
 		{ "type": "Select", "name": "HMDeviceType", "caption": "Homematic Gerätetyp",
