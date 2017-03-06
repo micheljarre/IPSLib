@@ -7,6 +7,7 @@
 		{ "name": "Username", "type": "ValidationTextBox", "caption": "Nutzername" },
 		{ "name": "Password", "type": "PasswordTextBox", "caption": "Password" },
 		{ "name": "Root",  "type": "SelectObject",  "caption": "Wurzel für erzeugte Objekte" },
+		{ "name": "UseCategories", "type": "CheckBox",  "caption": "Kategorien statt Dummy Instanzen verwenden" }		
 				
 		{ "name": "DataMinutes", "type": "NumberSpinner", "caption": "Aktualisierung der Monitoringdaten aus Check_MK Site (in Minuten)" },
 		{ "name": "ConfigHours", "type": "NumberSpinner", "caption": "Aktualisierung der Konfigurationsdaten aus Check_MK Site (in Stunden)" },

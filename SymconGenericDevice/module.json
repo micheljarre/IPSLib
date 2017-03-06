@@ -1,0 +1,14 @@
+{
+	"id": "{F9284518-7399-46E4-9CE9-019087DBB2BA}",
+	"name": "SymconGenericDevice",
+	"type": 3,
+	"vendor": "",
+	"aliases": 
+	[
+		"HomematicDeviceProxy"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "SGD"
+}

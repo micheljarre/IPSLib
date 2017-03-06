@@ -1,0 +1,13 @@
+{
+	"elements":
+	[
+		{ "name": "ProxyInstance", "type": "SelectInstance", "caption": "Proxy Instanz" },
+		{ "type": "Select", "name": "Type", "caption": "Gerätetyp",
+			"options": [
+				{ "label": "Dimmer", "value": "Dimmer" },
+				{ "label": "Rolladen", "value": "Rolladen" },
+				{ "label": "Taster", "value": "Taster" }
+			]
+		}		
+	]
+}
